@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General background color is added */
+body{
+    background-color: #37384E;
+}
+
+.fold{
+    
+}
+
+/* Form and second_container holder styling */
+.inner_cover{
+ display: flex;
+ justify-content:center;
+ margin: auto;
+ margin-top: 100px;
+ padding: 40px;
+ background-color: white;
+ border-radius: 40px;
+ height: 380px; 
+ width:670px;
+
+}
+
+/* Heading tag */
+h1{
+    margin-bottom: 20px;
+}
+
+/* monthly update style */
+.smart{
+    margin-bottom: 20px;  
+}
+
+/* product discovary style */
+.product{
+    margin-bottom: 20px;
+}
+
+/* email_fold display  */
+.email_fold {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 10px; 
+    width: 300px;
+}
+
+/* email_fold label style */
+.email_fold label{
+    margin-top: -10px; 
+}
+
+/* email_fold button style */
+.email_fold button{
+    color: white;
+    background-color: #37384E;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+/* email_fold inpute style */
+.email_fold input{
+    margin-top: -10px;
+    height: 40px;
+    border: grey solid;
+    border-radius: 5px;
+    padding:10px;
+}
+
+/* Second#-cintainer styling left image */
+.second_container img{
+    height: 350px;
+    margin-top: -25px;
+    border-radius: 20px;
+}
+
+/* Here is the style for the error message */
+.errormsg{
+    display:none;
+}
+
+/* Thank you message styles */
+.external_container{
+    display: none;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+/* Dismiss message button */
+.external_container button{
+    margin-top: 30px;
+    margin-right: 200px;
+    color: white;
+    background-color: #37384E;
+    width: 250px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    
+}
+
+/* check image on external_container */
+.external_container img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:40px;
+}
